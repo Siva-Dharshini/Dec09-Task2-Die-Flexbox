@@ -1,0 +1,110 @@
+.flex-container{
+display: flex;
+background-color: bisque;
+}
+body{
+  text-align: center;
+  color: crimson;
+}
+.die{
+  height:100px;
+  width: 100px;
+  background-color: lightgray;
+  border: 2px solid rgb(70, 63, 63);
+  border-radius: 20px;
+  margin: 50px;
+  margin-top: 100px;
+  position: relative;
+  box-shadow:2px 2px 2px 2px darkgray;
+}
+
+
+.circle{
+  height:20px;
+  width:20px;
+background-color: rgb(88, 80, 80);
+border-radius: 50%;
+
+border: 2px solid gray;
+}
+.die1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.circle11{
+position: absolute;
+bottom:8px;
+left:70px ;
+}
+
+.circle21{
+  position: absolute;
+  top:8px;
+  left:8px;
+
+  }
+
+  .circle22{
+    position: absolute;
+    bottom:8px;
+    left:70px ;
+    }
+
+    
+  .circle31{
+    position: absolute;
+    top:8px;
+    left:8px ;
+    }
+    .blue{
+      position: absolute;
+      height:100px;
+      width:28px;
+      background-color: blue;
+      border-radius: 0;
+      top:0;
+      left:38px;
+    }
+  .circle32{
+    position: absolute;
+    top:40px;
+    left:40px ;
+    background-color: crimson;
+    }
+  .circle33{
+    position: absolute;
+    bottom:8px;
+    left:70px ;
+    }
+    .circle42{
+      position: absolute;
+      top:8px;
+      right:10px ;
+    }
+    .circle43{
+      position: absolute;
+      bottom:8px;
+      left:8px ;
+      }
+      .circle53{
+        position: absolute;
+        top:40px;
+    left:8px ;
+        }
+
+        .circle54{
+          position: absolute;
+          top:40px;
+          right:8px ;
+          }
+    
+@media only screen and (max-width:1000px) and (min-width:200px){
+  .flex-container{
+    display: flex;
+    background-color: bisque;
+    flex-direction: column;
+    padding:60px;
+    }
+  
+}
